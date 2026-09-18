@@ -1,0 +1,16 @@
+# Secrets and local files
+.env
+.env.*
+!.env.example
+.private/
+secrets/
+*.pem
+*.key
+*.crt
+credentials.json
+service-account*.json
+.DS_Store
+Thumbs.db
+node_modules/
+dist/
+build/
